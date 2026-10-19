@@ -3,7 +3,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 
-namespace CustomRibbonMenu;
+namespace CustomRibbonMenu.Commands;
 
 [Transaction(TransactionMode.Manual)]
 public class CopyFurnitureGroup : IExternalCommand
